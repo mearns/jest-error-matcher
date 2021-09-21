@@ -1,0 +1,9 @@
+{
+  "extends": [
+    "@bmearns/eslint-config/typescript",
+    "@bmearns/eslint-config/jest"
+  ],
+  "env": {
+    "jest": true
+  }
+}
