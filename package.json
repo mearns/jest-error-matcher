@@ -7,8 +7,7 @@
   "keywords": [],
   "logo": "logo.png",
   "files": [
-    "dist/**",
-    "resources/**"
+    "dist/**"
   ],
   "repository": {
     "type": "git",
@@ -39,7 +38,6 @@
     "public": "npm-run-all \"public:*\"",
     "public:logo": "mkdirp public && copyfiles logo.png public/",
     "public:docs": "typedoc --out public/api --includeVersion --exclude \"+(node_modules|dist|test)/**/*\" src",
-    "public:resources": "mkdirp public && copyfiles \"resources/**/*\" public/",
     "public:reports": "npm-run-all \"public:reports:*\"",
     "public:reports:copy": "mkdirp public && copyfiles \"reports/**/*\" public/",
     "public:reports:copy-logo": "mkdirp public && copyfiles logo.png public/reports/",

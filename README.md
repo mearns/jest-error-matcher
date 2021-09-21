@@ -75,7 +75,7 @@ expect(() => {
 
 ...you get the following output:
 
-![toThrow matcher output](resources/to-throw-output.png)
+![toThrow matcher output](https://github.com/mearns/jest-error-matcher/raw/master/resources/to-throw-output.png)
 
 Using the custom matchers provided by the this package...
 
@@ -92,7 +92,7 @@ expect(() => {
 
 ...you get much more useful output:
 
-![toThrowErrorMatching matcher output](resources/to-throw-error-matching-output.png)
+![toThrowErrorMatching matcher output](https://github.com/mearns/jest-error-matcher/raw/master/resources/to-throw-error-matching-output.png)
 
 ## Bugs and Pull Requests
 
