@@ -1,6 +1,6 @@
 {
   "name": "jest-error-matcher",
-  "version": "0.1.0-rc.1",
+  "version": "0.1.0-rc.2",
   "description": "A jest extension to provide better matching against errors.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
